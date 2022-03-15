@@ -1,0 +1,54 @@
+:root {
+    --font-family-sans-serif: "Helvetica", "Lucida Grande", sans-serif;
+    --text-color: #3D3D3D;
+    --title-bg-color: #E1EDF2;
+    --black: #000;
+
+    --bg-color-figure: whitesmoke;
+    --border-color-figure: lightgrey;
+}
+
+
+body {
+    font-family: var(--font-family-sans-serif);
+    color: var(--text-color);
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo {
+    background-color: var(--title-bg-color);
+    padding: 10px;
+}
+
+.subtitulo {
+    border-bottom: 2px solid var(--black);
+}
+
+figure {
+    background-color: var(--bg-color-figure);
+    border: 1px solid var(--border-color-figure);
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+}
+
+figure img {
+    width: inherit;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
+.figure__matriz {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.figure__familia {
+    width: 275px;
+    float: right;
+}
